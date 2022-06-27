@@ -47,3 +47,9 @@
     text-align: center;
 }
 
+
+@media screen and (max-width: 525px) {
+    .global__wrapper{
+        width: 90%;
+    }    
+}
