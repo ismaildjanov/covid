@@ -5,7 +5,7 @@ import logo from "../../assets/icons/logo.svg";
 const Header = () => {
   return (
     <div className='header'>
-        <img className='logo' src={logo} />
+        <img className='logo' src={logo} alt='' />
     </div>
   )
 }
