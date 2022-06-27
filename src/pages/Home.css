@@ -1,0 +1,17 @@
+.home{
+    padding: 150px;
+}
+
+.home__global{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.home__countries{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+}

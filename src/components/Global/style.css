@@ -1,0 +1,48 @@
+.global__wrapper:nth-child(1){
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    background: linear-gradient(95.43deg, #0098EE 0.02%, #00EEB5 196.57%, #00EEB5 196.57%);
+}
+
+.global__wrapper:nth-child(2) {
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    background: linear-gradient(95.37deg, #0098EE -95.82%, #00EEB5 98.99%, #00EEB5 98.99%);
+}
+
+.global__wrapper:nth-child(3),
+.global__wrapper:nth-child(4) {
+    color: rgb(8, 207, 207);
+    padding: 10px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 5px 2px rgba(0, 224, 238, 0.08);
+}
+
+.total__cases{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total__cases-text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+.total__cases-numbers p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    margin: 12px 0;
+}
+
+.last__update p{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+}

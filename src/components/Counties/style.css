@@ -1,0 +1,82 @@
+.wrapper{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 2px rgba(0, 152, 238, 0.15);
+    border-radius: 4px;
+}
+
+.country__box{
+    background: linear-gradient(92.48deg, #0199EE 2.11%, #01E5BB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.country__name{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.country__total-case{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.country__flag{
+    width: 41px;
+    height: 31px;
+    margin-right: 12px;
+}
+
+.total__case-heading{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.total__case-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.total__case-desc{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.all__cases{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+}
+
+.vaccinations{
+    display: flex;
+    gap: 5px;
+}
+
+.vaccinations img{
+    width: 18px;
+    height: 16px;
+}
+
+.vaccinations__info-text{
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 7px;
+    margin-bottom: 5px;
+}
+
+.vaccinations__info-number{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+}
